@@ -15,6 +15,6 @@ export class HeaderComponent implements OnInit {
   }
   
   toggleAddTask(){
-    console.log("toggleAddTask!");
+    console.log("toggleAddTask!");//creamos una funcion que cuando el usuario haga click sobre el boton mueste en consola
   }
 }
