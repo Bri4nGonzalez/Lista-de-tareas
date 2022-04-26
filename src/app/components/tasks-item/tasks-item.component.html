@@ -1,5 +1,13 @@
 <div class="task">
-    <!--resibimos la propiedad con las tareas-->
-    <h3>{{task.text}}</h3>
-    <p>{{task.day}}</p>
+    <h3>
+        {{task.text}} <!--resibimos la propiedad con las tareas-->
+        <fa-icon 
+            [icon]="faTimes"
+            [ngStyle]="{'color':'red'}"
+        ><!--Agregamos la etiqueta de fa-ico y le decimos que utilice el icono de faTimes-->
+        </fa-icon>
+    </h3>
+    <p>
+        {{task.day}}
+    </p>
 </div>
