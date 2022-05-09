@@ -1,33 +1,28 @@
 {
-    "tasks":[
-        {
-            "id":1,
-            "text": "Terminar el primer modulo de Angular",
-            "day": "abril 23 a las 12:00",
-            "reminder": true
-        },
-        {
-            "id":2,
-            "text": "Hacer las compras para cena",
-            "day": "abril 23 a las 17:00",
-            "reminder": true 
-        },
-        {
-            "id":3,
-            "text": "Investigar sobre Boostrap",
-            "day": "abril 23 a las 19:00",
-            "reminder": false
-        },
-        {
-            "id":4,
-            "text": "Leer mi libro favorito",
-            "day": "abril 23 a las 21:00",
-            "reminder": false 
-        }, {
-            "id":5,
-            "text": "Ir al correo",
-            "day": "agosto 6 a las 08:00",
-            "reminder": false 
-        }
-    ]
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Terminar el primer modulo de Angular",
+      "day": "abril 23 a las 12:00",
+      "reminder": false
+    },
+    {
+      "id": 2,
+      "text": "Hacer las compras para cena",
+      "day": "abril 23 a las 17:00",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Investigar sobre Boostrap",
+      "day": "abril 23 a las 19:00",
+      "reminder": false
+    },
+    {
+      "text": "Nueva Tarea",
+      "day": "Mañana",
+      "reminder": true,
+      "id": 4
+    }
+  ]
 }
